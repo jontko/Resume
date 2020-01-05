@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { FooterModule } from './footer/footer.module';
+import { HeaderModule } from './header/header.module';
+import { HomeModule } from './home/home.module';
+import { CareerModule } from './career/career.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HeaderModule,
+    FooterModule,
+    HomeModule,
+    CareerModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
