@@ -10,18 +10,21 @@ import { CareerModule } from './career/career.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HeaderModule,
-    FooterModule,
-    HomeModule,
-    CareerModule
 
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    HeaderModule, 
+    FooterModule, 
+    HomeModule, 
+    CareerModule
   ],
+
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule { }
