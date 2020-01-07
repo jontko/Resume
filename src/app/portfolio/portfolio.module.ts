@@ -10,7 +10,8 @@ const routes: Routes = [{ path: '', component: PortfolioComponent}];
     PortfolioComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forChild(routes)
   ],
   exports: [
     PortfolioComponent
