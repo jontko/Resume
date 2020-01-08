@@ -8,11 +8,11 @@ import { HeaderModule } from './header/header.module';
 import { HomeModule } from './home/home.module';
 import { CareerModule } from './career/career.module';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { PortfolioModule } from './portfolio/portfolio.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PortfolioComponent
   ],
 
   imports: [
@@ -21,7 +21,8 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     HeaderModule, 
     FooterModule, 
     HomeModule, 
-    CareerModule
+    CareerModule,
+    PortfolioModule
   ],
 
   providers: [],
