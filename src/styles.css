@@ -14,13 +14,13 @@
 
 .head {
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: sans-serif;
     width: 990px;
-    height: 60px;
+    height: 28px;
     padding: 5px 0px 0px 0px;
     border: 2px black solid;
     border-radius: 5px;
-    margin: 0px 8px 0px 8px;
+    margin: 0px 0px 0px 0px;
     vertical-align: top;
     display: inline-block;
 }
@@ -51,13 +51,14 @@
 
 .scrollwindow {
     height: 420px;
-    width: 500px;
-    padding: 0px;
-    /* border: 2px solid black; */
+    width: 990px;
+    padding: 5px;
+    border: 2px solid black;
     border-radius: 10px;
-    margin: 10px 10px 10px 5px;
+    margin: 0px 0px 0px 0px;
     vertical-align: top;
     display:inline-block;
+    font-family: sans-serif;
     text-align: left;
     overflow:scroll;
 
@@ -67,11 +68,11 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     width: 990px;
-    height: 100px;
-    padding: 0px;
+    height: 37px;
+    padding:10px 0px 0px 0px;
     border: 2px black solid;
     border-radius: 5px;
-    margin: 0px 8px 0px 8px;
+    margin: 10px 0px 0px 0px;
     vertical-align: top;
     display: inline-block;
 }
@@ -94,7 +95,7 @@ h1 {
     border: 0px;
     margin: 0px;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: sans-serif;
     font-size: 32px;
     vertical-align: top;
     display: inline-block;  
@@ -185,8 +186,24 @@ a {
     border: 0px;
     margin: 0px;
     text-align: center;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif; 
     font-size:12.5px;
+    vertical-align: top;
+    display: inline-block;                              
+}
+
+a:hover {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:12.5px;
+    background-color: slateblue;
     vertical-align: top;
     display: inline-block;                              
 }
@@ -197,13 +214,30 @@ a {
 
 .button {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
-    border: 5px black solid;
+    color:black;
+    background-color: white;
+    width: 55px;
+    padding: 2px;
+    border: 1px black solid;
     border-radius: 5px;
-    margin: 25px 0px 0px 0px;
+    margin: 1px 2px 1px 2px;
     vertical-align: top;
     display: inline-block;
 }  
+
+.button:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 55px;
+    padding: 2px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: black;
+    margin: 1px 2px 1px 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    display: inline-block;
+} 
 
 .reset{
     width: 200px;
@@ -241,4 +275,8 @@ img{
     border-radius: 25%;
     width: 200px;
     margin-top: 50px;
+}
+
+a :hover {
+    color: red
 }
