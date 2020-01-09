@@ -24,13 +24,19 @@ const routes: Routes = [
   {
     path: 'blog',
     loadChildren: () =>
-      import('./blog/blog.module').then(b => b.BlogModule)
+      import('./blog/blog.module').then(m => m.BlogModule)
   }, 
 
   {
     path: 'portfolio',
     loadChildren: () =>
-      import('./portfolio/portfolio.module').then(p => p.PortfolioModule)
+      import('./portfolio/portfolio.module').then(m => m.PortfolioModule)
+  },
+  
+  {
+    path:'contact',
+    loadChildren: () =>
+      import('./contact/contact.module').then(m => m.ContactModule)
   }
 ];
 
