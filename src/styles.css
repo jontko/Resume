@@ -27,11 +27,11 @@
 
 .body {
     height: 500px;
-    width: 476px;
-    padding: 0px;
+    width: 990px;
+    padding: 10px 10px 10px 10px;
     border: 2px solid black;
-    border-radius: 10px;
     margin: 10px 5px 10px 10px;
+    border-radius: 10px;
     vertical-align: top;
     display:inline-block;
     text-align: center;
@@ -58,7 +58,7 @@
     margin: 0px 0px 0px 0px;
     vertical-align: top;
     display:inline-block;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     overflow:scroll;
 
@@ -95,7 +95,7 @@ h1 {
     border: 0px;
     margin: 0px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     vertical-align: top;
     display: inline-block;  
@@ -108,8 +108,8 @@ h2 {
     border: 0px;
     margin: 0px;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
     vertical-align: top;
     display: inline-block;     
 }
@@ -121,20 +121,20 @@ h3 {
     border: 0px;
     margin: 0px 0px 0px 10px;
     text-align: left;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18.72px;
     vertical-align: top;
     display: inline-block;  
 }
 
 h4 {
-    width: 200px;
+    width: auto;
     height: 20px;
     padding: 0px;
     border: 0px;
-    margin: 0px;
+    margin: 0px 0px 0px 10px;
     text-align: left;
-    font-family:'Courier New', Courier, monospace; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size:16px;
     vertical-align: top;
     display: inline-block;  
@@ -147,7 +147,7 @@ h5 {
     border: 0px;
     margin: 0px;
     text-align: left;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12.28px;
     vertical-align: top;
     display: inline-block; 
@@ -160,7 +160,7 @@ h6 {
     border: 0px;
     margin: 0px;
     text-align: left;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size:10.72px;
     vertical-align: top;
     display: inline-block; 
@@ -173,7 +173,7 @@ p {
     border: 0px;
     margin: 0px;
     text-align: left;
-    font-family:'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     vertical-align: top;
     display: inline-block; 
@@ -190,7 +190,7 @@ a {
     font-family: Arial, Helvetica, sans-serif; 
     font-size:12.5px;
     vertical-align: top;
-    display: inline-block;                              
+    display: inline-block;
 }
 
 a:hover {
@@ -205,7 +205,7 @@ a:hover {
     font-size:12.5px;
     background-color: slateblue;
     vertical-align: top;
-    display: inline-block;                              
+    display: inline-block;
 }
 
 .centered {
@@ -273,8 +273,11 @@ a:hover {
 
 img{
     border-radius: 25%;
-    width: 200px;
-    margin-top: 50px;
+    border-color: black solid 2px;
+    height:200px;
+    width: auto;
+    vertical-align: top;
+    display: inline-block;
 }
 
 a :hover {
