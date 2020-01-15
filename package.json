@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
@@ -19,6 +18,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
+    "posts": "0.0.1",
     "rxjs": "~6.4.0",
     "tailwindcss": "^1.1.4",
     "tslib": "^1.10.0",
@@ -44,5 +44,18 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jontko/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jontko/Resume/issues"
+  },
+  "homepage": "https://github.com/jontko/Resume#readme"
 }

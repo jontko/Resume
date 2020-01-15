@@ -1,6 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 /* * {border: 2px red dashed} */
 
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
 .section1 {
     text-align: center;
     height: 50px;
@@ -12,7 +19,7 @@
 }
 .section2 {
     height: 50px;
-    background-image: src="/src/assets/img/IMG_3342.jpeg";
+    background-image: url("/src/assets/img/IMG_3342.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -22,7 +29,7 @@
     background: cornsilk ;
     opacity: 0.5;
     height: 50x;
-    background-image: src="/src/assets/img/IMG_3342.jpeg";
+    background-image: url("/src/assets/img/IMG_3342.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -32,7 +39,7 @@
     background: cornsilk ;
     opacity: 0.5;
     height: 50px;
-    background-image: src="/src/assets/img/IMG_3342.jpeg";
+    background-image: url("/src/assets/img/IMG_3342.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
