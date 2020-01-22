@@ -7,8 +7,9 @@ import { FooterModule } from './footer/footer.module';
 import { HeaderModule } from './header/header.module';
 import { HomeModule } from './home/home.module';
 import { CareerModule } from './career/career.module';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+// import { PortfolioComponent } from './portfolio/portfolio.component';
 import { PortfolioModule } from './portfolio/portfolio.module';
+import { CalendlyModule } from './calendly/calendly.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PortfolioModule } from './portfolio/portfolio.module';
     FooterModule, 
     HomeModule, 
     CareerModule,
-    PortfolioModule
+    PortfolioModule,
+    CalendlyModule,
   ],
 
   providers: [],
